@@ -4,8 +4,64 @@ $primary-color: #999999;
   color: $primary-color
 }
 
-#body {
-  padding: 0;
+html {
   margin: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #999999;
+  //display: flex;
+  //flex-flow: column wrap;
+}
+.content {
+  flex: 1 1;
+  order: 2;
   display: flex;
 }
+
+.mapPane {
+  flex: 1;
+  //height: 200px;
+  height: 100vh;
+}
+
+.govHeader {
+  display: flex;
+  float: top;
+}
+
+// BARRA GOVERNO HEADER
+
+.barraBrasilStyle {
+  background: #7F7F7F;
+  height: 20px;
+  padding: 0 0 0 10px;
+  display: block;
+}
+
+.menuBarraTempStyle {
+  list-style: none;
+};
+
+.liStyle {
+  display: inline;
+  float: left;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid #EDEDED;
+};
+
+.GovA1Style {
+  font-family: sans, sans-serif;
+  text-decoration: none;
+  color: white;
+};
+
+.GovA2Style {
+  font-family: sans, sans-serif;
+  text-decoration: none;
+  color: white;
+};
