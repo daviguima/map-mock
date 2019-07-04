@@ -24,8 +24,8 @@ body {
 
 .mapPane {
   flex: 1;
-  //height: 200px;
-  height: 100vh;
+  height: calc(100vh - 9.2em);
+  z-index: 1;
 }
 
 .govHeader {
@@ -33,7 +33,7 @@ body {
   float: top;
 }
 
-// BARRA GOVERNO HEADER
+// GOV HEADER
 
 .barraBrasilStyle {
   background: #7F7F7F;
@@ -44,7 +44,7 @@ body {
 
 .menuBarraTempStyle {
   list-style: none;
-};
+}
 
 .liStyle {
   display: inline;
@@ -52,16 +52,17 @@ body {
   padding-right: 10px;
   margin-right: 10px;
   border-right: 1px solid #EDEDED;
-};
+}
 
 .GovA1Style {
   font-family: sans, sans-serif;
   text-decoration: none;
   color: white;
-};
+}
 
 .GovA2Style {
   font-family: sans, sans-serif;
   text-decoration: none;
   color: white;
-};
+}
+
