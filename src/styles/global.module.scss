@@ -1,5 +1,17 @@
 $primary-color: #999999;
 
+.russo {
+  text-align: left;
+  color: white;
+  font-size: 3rem;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 2px 2px 6px black;
+}
+
+.logo {
+  top: 0px;
+}
+
 .title {
   color: $primary-color
 }
@@ -24,13 +36,26 @@ body {
 
 .mapPane {
   flex: 1;
-  height: calc(100vh - 9.2em);
+  height: calc(100vh - 9.5em);
   z-index: 1;
 }
 
 .govHeader {
   display: flex;
   float: top;
+}
+
+// Float Title Menu
+.floatingMenu {
+  margin-top: 12px;
+  left: 56px;
+  z-index: 3;
+  position: absolute;
+  //text-align: center;
+}
+
+.floatingMenuOptions {
+  z-index: 300;
 }
 
 // GOV HEADER
