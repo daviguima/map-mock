@@ -9,7 +9,7 @@ const FooterStyle = {
   maxWidth: "100%"
 }
 
-function Footer() {
+const Footer = () => {
     return (
         <div>
             <div id="footer-brasil" style={FooterStyle}></div>

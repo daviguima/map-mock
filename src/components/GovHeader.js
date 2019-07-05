@@ -32,7 +32,7 @@ import Style from "../styles/global.module.scss"
 //     color: "white"
 // };
 
-function Header() {
+const Header = () => {
     return (
         <div id="barra-brasil" className={Style.barraBrasilStyle}>
             <ul id="menu-barra-temp" className={Style.menuBarraTempStyle}>
